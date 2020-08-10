@@ -4,9 +4,10 @@
       "vtex.menu@2.x:submenu#major"
     ],
     "props": {
-      "type": "custom",
+      "type": "category",
       "highlight": true,
       "itemProps": {
+        "categoryId": 1, 
         "text": "Major Aplliances"
       }
     }
