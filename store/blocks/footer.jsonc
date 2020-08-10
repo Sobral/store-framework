@@ -7,6 +7,7 @@
       "flex-layout.row#footer-1-desktop"
     ]
   },
+
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.col#footer-left-desktop",
@@ -18,19 +19,24 @@
       "paddingBottom": 7
     }
   },
-  "flex-layout.col#footer-left-desktop":{
+
+  "flex-layout.col#footer-left-desktop": {
     "children": [
       "accepted-payment-methods"
     ]
   },
-
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ],
+      "showInColor": true
     }
   },
 
-  "flex-layout.col#footer-right-desktop":{
+  "flex-layout.col#footer-right-desktop": {
     "children": [
       "social-networks"
     ]
@@ -38,10 +44,20 @@
   "social-networks": {
     "props": {
       "socialNetworks": [
-        { "url": "https://facebook.com/foo", "name": "Facebook" },
-        { "url": "https://instagram.com/foo", "name": "Instagram" },
-        { "url": "https://twitter.com/foo", "name": "Twitter" }
-      ]
+        { 
+          "url": "https://facebook.com/foo",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://instagram.com/foo",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://twitter.com/foo",
+          "name": "Twitter"
+        }
+      ],
+      "showInColor": true
     }
   }
 }
