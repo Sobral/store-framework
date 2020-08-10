@@ -31,7 +31,7 @@
       "orientation": "vertical"
     }
   },
-  "vtex.menu@2.x:submenu#eletronics":{
+  "vtex.menu@2.x:submenu#electronics":{
     "children":[
       "menu-item#cameras",
       "menu-item#laptops",
