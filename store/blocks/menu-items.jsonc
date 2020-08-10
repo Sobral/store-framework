@@ -1,6 +1,9 @@
 {
   "menu-item#major-appliances": {
-      "props": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#major"
+    ],
+    "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
@@ -9,8 +12,10 @@
     }
   },
   "menu-item#small-appliances": {
-      "props":
-    {
+    "blocks": [
+      "vtex.menu@2.x:submenu#small"
+    ],
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -20,8 +25,10 @@
     }
   },
   "menu-item#electronics": {
-      "props":
-    {
+    "blocks": [
+      "vtex.menu@2.x:submenu#eletronics"
+    ],
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
